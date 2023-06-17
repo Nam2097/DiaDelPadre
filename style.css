@@ -1,0 +1,34 @@
+body{
+	background: #C4DFF4;
+}
+@keyframes animacionh1{
+	0% {color: #8901CF}
+	25% {color: #091D8B;}
+	
+	75% {color: #F1761C;}
+	100% {color: #8901CF;}
+}
+h1{
+	font-family: "Courier New", Impact;
+	text-align: center;
+	text-shadow: black;
+	font-style: bold;
+	font-size: 50px;
+	animation-name: animacionh1;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+p{
+	font-family: Verdana;
+	font-size: 20px;
+	line-height: 40px;
+}
+h2{
+	font-family: Verdana;
+}
+.ImagenNormi{
+	margin: 20px;
+	border: 10px double #B18A23;
+	width: 250px;
+}
